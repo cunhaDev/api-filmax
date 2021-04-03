@@ -30,7 +30,8 @@ Rest api do projeto Open Source FilMax.
 - Pela IDE Spring Tools Suite 
 > - Navegue até a aba BootDAshboard
 > - opção RUN AS > SPRING BOOT APLICATION
-> - Ou consulte: <a href=“https://spring.io/blog/2014/03/07/deploying-spring-boot-applications“>Guia Deploy Spring Boot</a>
+> - Ou consulte:
+* [14 Essential iOS Interview Questions from Toptal](https://spring.io/blog/2014/03/07/deploying-spring-boot-applications)
 
 PRÉ-REQUISITOS PARA A EXECUÇÃO DO PROJETO
 - Java 7 ou versões superiores.
