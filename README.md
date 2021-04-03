@@ -31,10 +31,10 @@ Rest api do projeto Open Source FilMax.
 > - Navegue até a aba BootDAshboard
 > - opção RUN AS > SPRING BOOT APLICATION
 > - Ou consulte:
-* [14 Essential iOS Interview Questions from Toptal](https://spring.io/blog/2014/03/07/deploying-spring-boot-applications)
+* [Deploying Spring Boot Applications](https://spring.io/blog/2014/03/07/deploying-spring-boot-applications)
 
 PRÉ-REQUISITOS PARA A EXECUÇÃO DO PROJETO
-- Java 7 ou versões superiores.
-- NetBeans IDE
-- Banco de Dados Local XAMPP
+- Java 8 ou versões superiores.
+- STS - Spring Tools Suite ou sua preferida.
+- Banco de Dados Local XAMPP(Por enquanto)
 - Maquina Virtual Java - JVM
