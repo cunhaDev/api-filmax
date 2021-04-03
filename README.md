@@ -33,8 +33,12 @@ Rest api do projeto Open Source FilMax.
 > - Ou consulte:
 * [Deploying Spring Boot Applications](https://spring.io/blog/2014/03/07/deploying-spring-boot-applications)
 
-PRÉ-REQUISITOS PARA A EXECUÇÃO DO PROJETO
-- Java 8 ou versões superiores.
-- STS - Spring Tools Suite ou sua preferida.
-- Banco de Dados Local XAMPP(Por enquanto)
-- Maquina Virtual Java - JVM
+Tecnologias do Projeto:
+- Java
+- Spring Boot
+- Spring Data JPA
+- Flyway
+- Jakarta Bean Validation
+- Domain-Driven Design (DDD)
+- Maven
+- MySql
