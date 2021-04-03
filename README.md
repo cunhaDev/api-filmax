@@ -18,14 +18,19 @@ Rest api do projeto Open Source FilMax.
 
 > -Sobre o Sistema;
 
+#Requisitos para Executar a Aplicação:
+
+> - Maven 3.2+ instalado;
+> - JDK 8+ instalado;
+> - Conexão com a Internet, pois o Maven irá descarregar as dependências (a menos que você já as possua em seu repositório local);
+> - O IDE de sua preferência – não é obrigatório, mas ajuda a visualizar os artefatos e código;
+> - O código fonte completo do projeto pode ser obtido aqui no GitHub;
 
 #EXECUTE O PROJETO: 
--  No Terminal:
-- 
-> - crie a base de dados seguindo as Tabelas do DAO e siga os seguintes passos
-> - opção RUN AS > JAVA APLICATION 
-> - cadastre um Usuario com todas as Credências 1(Ativo)
-> - cadastre um Turno
+- Pela IDE Spring Tools Suite 
+> - Navegue até a aba BootDAshboard
+> - opção RUN AS > SPRING BOOT APLICATION
+> - Ou consulte: <a href=“https://spring.io/blog/2014/03/07/deploying-spring-boot-applications“>Guia Deploy Spring Boot</a>
 
 PRÉ-REQUISITOS PARA A EXECUÇÃO DO PROJETO
 - Java 7 ou versões superiores.
