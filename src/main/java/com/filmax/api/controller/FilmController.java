@@ -46,18 +46,18 @@ public class FilmController {
 	@PostMapping("/salvar")
 	@ApiOperation(value = "Salva um Link no Repositório..")
 	@ResponseStatus(HttpStatus.CREATED)
-	public String salvarUsuario(@Valid Film filme, @RequestParam("profilePictureFile") MultipartFile multipartFile1)
+	public String salvarUsuario(@Valid Film filme, @RequestParam("profilePictureFile") MultipartFile multipartFile1) //recebe o arquivo pelo mulyipart
 			throws IOException {
 
-		String profilePictureFileName = StringUtils.cleanPath(multipartFile1.getOriginalFilename());
+		String profilePictureFileName = StringUtils.cleanPath(multipartFile1.getOriginalFilename()); // armazena em uma varivel
 
-		filme.setFoto(profilePictureFileName);
+		filme.setFoto(profilePictureFileName); //manda pra variavel foto(do model filme)
 
-		Film savedFilme = addService.Add(filme);
-		String uploadDir = "filmes/" + savedFilme.getId();
+		Film savedFilme = addService.Add(filme); //salva no banco
+		String uploadDir = "filmes/" + savedFilme.getId(); //salva em uma pasta local
 
-		FileUploadUtil.saveFile(uploadDir, profilePictureFileName, multipartFile1);
+		FileUploadUtil.saveFile(uploadDir, profilePictureFileName, multipartFile1); //delega pro arquivo fileUploadUtil salvar uma copia Local
 
-		return "filme cadastrado com sucesso!";
+		return "filme cadastrado com sucesso!"; //retorna uma msg dizendo que foi salvo, caso dÊ certo
 	}
 }
