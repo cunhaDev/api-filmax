@@ -1,6 +1,5 @@
 package com.filmax.domain.model;
 
-import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -23,9 +22,6 @@ public class Film {
 	
 	@NotBlank
 	private String link;
-	
-	@Column(name = "profile_picture")
-	private String foto;
 	
 	public Long getId() {
 		return id;
@@ -57,16 +53,6 @@ public class Film {
 
 	public void setLink(String link) {
 		this.link = link;
-	}
-	
-	
-
-	public String getFoto() {
-		return foto;
-	}
-
-	public void setFoto(String foto) {
-		this.foto = foto;
 	}
 
 	@Override

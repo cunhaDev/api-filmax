@@ -18,7 +18,7 @@ public class FilmAddService {
 		Film filmExist = filmRepository.findByTitulo(film.getTitulo());
 		
 		if(filmExist != null && !filmExist.equals(film)) {
-			throw new Exception("Ops! Já existe este endereço...");
+			throw new Exception("Ops! Já existe este Titulo...");
 		}
 		
 		return filmRepository.save(film); 
