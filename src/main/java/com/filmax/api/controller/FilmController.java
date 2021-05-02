@@ -25,7 +25,7 @@ import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 
 @RestController
-@RequestMapping({ "/api" })
+@RequestMapping({ "/repolinks" })
 @Api(value = "Projeto Open Source Filmax")
 @CrossOrigin(origins = "*")
 public class FilmController {
